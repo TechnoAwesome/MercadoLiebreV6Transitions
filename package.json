@@ -1,0 +1,23 @@
+{
+  "name": "proyectoenplayground",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnoAwesome/MercadoLiebreV4Flex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechnoAwesome/MercadoLiebreV4Flex/issues"
+  },
+  "homepage": "https://github.com/TechnoAwesome/MercadoLiebreV4Flex#readme",
+  "description": ""
+}

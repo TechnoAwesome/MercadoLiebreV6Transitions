@@ -1,0 +1,54 @@
+.login{
+    background-color: var(--gris-claro);
+}
+.login main{
+    background-color: #FFF;
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px 5%;
+    border: 1px solid var(--gris-claro);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.login main .titulo{
+    text-transform: uppercase;
+    margin:10px 0;
+}
+.login main .ingresar form{
+    width: 100%;
+}
+.login main .ingresar .form-data{
+    padding: 10px 0;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+}
+.login main .ingresar .form-data label{
+    font-weight: 600;
+}
+.login main .ingresar .form-data input{
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: 1px solid var(--gris-claro);
+    text-align: center;
+    font-style: italic;
+}
+.login main .ingresar .send-buttom{
+    margin: 10px 0;
+}
+.login main .ingresar .send-buttom input{
+    padding: 5px;
+    width: 100%;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    border: 1px solid var(--azul);
+    text-transform: uppercase;
+    color: white;
+    transition: all,0.7s;
+}
+.login main .ingresar .send-buttom input:hover{
+    background-color:#0022AA;
+    border-color: var(--celeste);
+}

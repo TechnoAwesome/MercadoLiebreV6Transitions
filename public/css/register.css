@@ -1,0 +1,87 @@
+.register{
+    background-color: var(--gris-claro);
+}
+/* main */
+.register main{
+    background-color: #FFF;
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px 5%;
+    border: 1px solid var(--gris-oscuro);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.register .titulo{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.register main form{
+    width: 100%;
+}
+.register main div{
+    padding: 10px 0;
+}
+/* resgistro */
+.register main form .registro div{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+}
+.register main form .registro label{
+    font-weight: 600;
+}
+.register main form .registro input{
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
+    border: 1px solid var(--gris-claro);
+    text-align: center;
+    font-style: italic;
+}
+/* profile */
+.register main form .profile div{
+    display: flex;
+    align-items: center;
+}
+.register main form .profile h5{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top:15px;
+}
+.register main form .profile .radio{
+    justify-content: space-around;
+}
+.register main form .profile .radio, .checkbox label{
+    margin-left: 10px;
+}
+.register main form .profile .photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.register main form .profile .photo input{
+    width: 100%;
+    color: var(--gris-oscuro);
+    font-style: italic;
+    padding: 5px 0;
+}
+/* form buttom */
+.register main form .form-buttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.register main form .form-buttom input{
+    padding: 5px;
+    width: 80px;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    border: 1px solid var(--azul);
+    text-transform: uppercase;
+    color: white;
+}
+.register main form .form-buttom input:hover{
+    background-color: skyblue;
+    border: none;
+}

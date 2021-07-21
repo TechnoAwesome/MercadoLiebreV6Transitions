@@ -1,0 +1,113 @@
+.home{
+    background-color: var(--gris-claro);
+    display:  flex ;
+    flex-flow :  column wrap;
+}
+
+/* banner */
+
+.home .banner{
+    width: 100%;
+    display: block;
+}
+/* main */
+.home main{
+    width: 90%;
+    margin:15px auto;
+}
+.home main .img{
+    width: 100%;
+}
+.home main h2{
+    text-align: left;
+    font-size: 24px;
+    color: var(--gris-oscuro)
+}
+.home main .descuentos, .descripciones{
+    font-size: 16px;
+}
+.home main .precio{
+    font-size: 18px;
+    width: 30%;
+}
+.home main .descripciones{
+    opacity: 0;
+    transition: all,0.7s;
+}
+.home main .descripciones:hover{
+    opacity: 10;
+}
+.home .descuentos{
+    color: green;
+    text-transform: lowercase;
+    width: 70%;
+}
+
+.home main article{
+    text-align: left;
+    border: 1px solid var(--gris-claro);
+    margin: 10px 0;
+    box-shadow: none;
+    transition: all,0.7s;
+}
+.home main article:hover{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+.home main article h3{
+    color: var(--gris-oscuro);
+    line-height: 50px;
+}
+.home main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -34px;
+}
+.home main .fa-truck{
+    margin: 20px;
+    color: green;
+}
+.home main .visitas, .ofertas{
+    margin: -2.5px 0;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* media queries */
+@media (min-width: 768px){
+    /* main */
+    .home main .descripciones{
+        width: 100%;
+    }
+    .home main article{
+        width: 45%;
+    }
+    .home main section{
+        display: flex;
+        flex-flow:wrap ;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width: 1024px){
+    /* main */
+    .home main article{
+        width: 23.3%;
+    }
+    .home .descuentos{
+        width: 60%;
+    }
+    .home main .precio{
+        width: 40%
+    }
+}
